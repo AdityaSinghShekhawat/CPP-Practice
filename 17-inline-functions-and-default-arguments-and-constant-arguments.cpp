@@ -4,7 +4,7 @@ using namespace std;
 // Inline function will substitute return value in calling function in compile time. Hence saves time.
 inline int product(int a, int b)
 {
-    // static int c = 0; // The value of c will be in static memory.
+    // static int c; // The value of c will be in static memory.
     // c += 1;
     return (a * b);
 }
